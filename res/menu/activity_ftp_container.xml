@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/ftp_server" android:showAsAction="always|withText" android:title="@string/ftp_server">
+        <menu>
+            <item android:id="@+id/server_control_item" android:title="@string/ftp_server_control"/>
+            <item android:id="@+id/user_manage_item" android:title="@string/ftp_server_user_manage"/>
+            <item android:id="@+id/server_setting_item" android:title="@string/ftp_server_setting"/>
+        </menu>
+    </item>
+   <!--  <item android:id="@+id/ftp_client" android:showAsAction="always|withText" android:title="@string/ftp_client">
+        <menu>
+            <item android:id="@+id/client_control_item" android:title="@string/ftp_client_control"/>
+            <item android:id="@+id/client_server_manage_item" android:title="@string/ftp_client_server_manage"/>
+        </menu>
+    </item> -->
+    <item android:id="@+id/ftp_client" android:showAsAction="always|withText" android:title="@string/ftp_client">
+        <menu>
+            <item android:id="@+id/ftp_client_control" android:title="@string/ftp_client_control" />
+            <item android:id="@+id/ftp_client_setting" android:title="@string/ftp_client_setting" />
+        </menu>
+    </item><item android:id="@+id/ftp_about" android:showAsAction="always|withText" android:title="@string/ftp_about">
+        <menu>
+            <item android:id="@+id/version_info_item" android:title="@string/ftp_version_info"/>
+            <item android:id="@+id/instruction" android:title="@string/ftp_instruction"/>
+        </menu>
+    </item>
+    <item android:id="@+id/ftp_quit" android:showAsAction="always|withText" android:title="@string/ftp_quit"></item>
+    
+
+   
+
+</menu>

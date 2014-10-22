@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	  <string name="sort_type">排序类型</string> 
+    <string-array name="sort_type_array"> 
+        <item>文件名</item> 
+        <item>修改时间</item> 
+        <item>文件大小</item> 
+        <item>文件类型</item> -
+    </string-array> 
+    <string name="app_name">FileShare</string>
+    <string name="wifi_status">Wifi状态</string>
+    <string name="server_log">服务器日志</string>
+    <string name="open_wifi">开启Wifi</string>
+    <string name="ftp_server">服务器</string>
+    <string name="ftp_client">客户端</string>
+    <string name="ftp_about">关于</string>
+    <string name="ftp_quit">退出</string>
+    <string name="ftp_server_control">控制台</string>
+    <string name="ftp_server_user_manage">用户管理</string>
+    <string name="ftp_server_setting">服务器设置</string>
+    <string name="ftp_client_control">客户端控制台</string>
+    <string name="ftp_client_server_manage">服务器管理</string>
+    <string name="ftp_version_info">版本</string>
+       <string name="ftp_version_info_content">版本：V1.0\nMade by M.Scott</string>
+    <string name="ftp_instruction">使用说明</string>
+    <string name="ftp_instruction_content">FileShare主要用于移动设备与pc等进行文件共享</string>
+    <string name="set_connections_wrong">最大连接数设置错误</string>
+    <string name="name_version">FileShare Server 1.13</string>
+    <string name="menu_byline">By Dave Revell and contributors</string>
+    <string name="add_user">Add User</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="FileShare_name">FileShare</string>
+    <string name="server_options">Server Options</string>
+    <string name="menu_url">http://www.FileShare.org</string>
+    <string name="start_server"><b>开启FTP服务器</b></string>
+    <string name="stop_server"><b>关闭FTP服务器</b></string>
+    <string name="no_url_yet">none yet</string>
+    <string name="server_status">Server status:</string>
+    <string name="my_url_is">Wifi URL:</string>
+    <string name="cannot_start_until_wifi">No wifi</string>
+    <string name="enable_wifi"><b>开启WIfi</b></string>
+    <string name=" no_wifi">没有wifi网络</string>
+    <string name="disable_wifi">Disable wifi</string>
+    <string name="wifi_waiting">Wifi waiting</string>
+    <string name="last_error">Last error:</string>
+    <string name="cant_get_url">unknown</string>
+    <string name="running">running</string>
+    <string name="stopped">stopped</string>
+    <string name="unknown">unknown</string>
+    <string name="session_monitor">Session monitor enabled:</string>
+    <string name="submit_bug_reports">&quot;Submit bug reports: &quot;</string>
+    <string name="ok">OK</string>
+    <string name="instructions_label">Instructions</string>
+    <string name="setup_label">Setup</string>
+    <string name="save_settings">Save</string>
+    <string name="config_username">Username:</string>
+    <string name="config_password">Password:</string>
+    <string name="config_portnum">Port number:</string>
+    <string name="username_validation_error">The username must consist of 1 or more letters. No other characters are allowed.</string>
+    <string name="password_validation_error">The password must consist of 1 or more alphanumeric characters. No other characters are allowed.</string>
+    <string name="port_validation_error">The port number must be in the range 1 to 65535.</string>
+    <string name="wifi_state_receiver_label">WifiStateReceiver</string>
+    <string name="enabled">enabled</string>
+    <string name="disabled">disabled</string>
+    <string name="waiting">waiting</string>
+    <string name="error_dialog_label">FileShare error</string>
+    <string name="the_error_was">The error was:</string>
+    <string name="stay_within_folder">Stay within folder (e.g. "/sdcard"):</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_connect_to_server">&#160;&#160;&#160;&#160;取消&#160;&#160;&#160;&#160;</string>
+    <string name="accept_connections_from_net">Accept connections from the net</string>
+    <string name="accept_connections_from_wifi">Accept connections from wifi</string>
+    <string name="at_least_one_listener">Please check either the wifi or net checkbox</string>
+    <string name="chrootDir_validation_error">The folder to stay within is either invalid \
+or nonexistent.</string>
+    <string name="violates_chroot">550 Server settings prevent leaving directory\r\n</string>
+    <string name="must_config">Before FileShare can run, a username and password must be set up.</string>
+    <string name="proxy_status">Proxy status:</string>
+    <string name="proxy_transferred">Proxy used:</string>
+    <string name="proxy_url">Proxy URL:</string>
+    <string name="donation">Proxy servers are expensive, please show your support by donating \
+(www.FileShare.org). The suggested donation is 25 cents per gigabyte of proxy traffic. \
+Thank you!</string>
+    <string name="instructions_text"></string>
+    <string name="error_dialog_text">\
+FileShare has encountered the following error: \n\
+\n\<b>%%%Replace_Here%%%</b>\n\
+\n\
+If you think that this error should not have occurred, it would be very helpful if you \
+would email <b>FileShare-devel @ googlegroups.com</b> or visit <b>http://www.FileShare.org</b>and report this as a bug (go to the <b>"Issues"</b> \
+section).\n\
+\n\
+Thanks very much for your help!\n\
+\n\
+- The FileShare team\n\</string>
+    <string name="config_header">FileShare Settings</string>
+    <string name="config_intro">These settings control the behavior of the FileShare server. They \
+will take effect when the server is started or restarted. They will be saved, but can be \
+changed later by pressing the <b>Setup</b> button.</string>
+    <string name="user_password_intro">To log in, clients will have to provide this information.</string>
+    <string name="default_dir">默认目录</string>
+    <string name="dir_browse">浏览</string>
+    <string name="default_port">默认端口&#160;&#160;&#160;&#160;</string>
+    <string name="max_connections">最大连接数</string>
+    <string name="save">保存</string>
+
+    <!-- 以下用于file explorer -->
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+
+    <color name="gray">#ffff0000</color>
+
+    <string name="err">Error</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_file_dialog">FileDialog</string>
+    <string name="add_new_user">添加新用户</string>
+    <string name="can_read">可读</string>
+    <string name="can_write">可写</string>
+    <string name="user_name">用户名：</string>
+    <string name="password">&#160;&#160;&#160;&#160;密码：</string>
+    <string name="can_modify">可修改</string>
+    <string name="can_delete">可删除</string>
+    <string name="no_user">无用户</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="file_rename">重命名</string>
+    <string name="file_download">下载</string>
+    <string name="file_upload">上传文件</string>
+    <string name="file_delete">删除</string>
+    <string name="file_move">移动</string>
+    <string name="file_new_directory">" 新建文件夹"</string>
+    <string name="connect_server">&#160;&#160;&#160;&#160;连接&#160;&#160;&#160;&#160;</string>
+    <string name="server_ip_address">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ip:&#160;</string>
+    <string name="server_port">&#160;&#160;&#160;&#160;端口：</string>
+    <string name="import_server_certificate">导入令牌</string>
+    <string name="ip_example">例如10.0.0.1</string>
+    <string name="prot_tips">0到65535之间的数字</string>
+    <string name="disconnect_server">断开服务器连接</string>
+    <string name="download_file">下载文件</string>
+    <string name="upload_file">上传文件</string>
+    <string name="should_choose_a_file">应该选择一个文件</string>
+    <string name="sdcard_not_exist">存储卡不可用</string>
+    <string name="up_directory">上一级目录</string>
+    <string name="new_dire">新建目录</string>
+    <string name="ok_button">确定</string>
+    <string name="rename">重命名</string>
+    <color name="white">#FFFFFF</color>
+    <string name="move_here">移动到该目录下</string>
+    <string name="create_certificate">生成登陆证书</string>
+    <string name="ftp_client_setting">客户端设置</string>
+    <string name="default_download_folder">下载保存目录</string>
+    <string name="default_certificate_folder">令牌保存目录</string>
+    <string name="quit_or_not">要退出程序吗？</string>
+    <string name="file_sort">文件排序</string>
+    <string name="file_first">文件优先</string>
+
+</resources>
